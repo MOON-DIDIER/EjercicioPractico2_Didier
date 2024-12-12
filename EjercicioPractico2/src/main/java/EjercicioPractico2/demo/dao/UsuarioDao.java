@@ -4,10 +4,14 @@
  */
 package EjercicioPractico2.demo.dao;
 
+import EjercicioPractico2.demo.domain.Usuario;
+
 /**
  *
  * @author rdcd2
  */
 public interface UsuarioDao {
+
+    public Usuario findByUsername(String username);
     
 }
